@@ -1,0 +1,113 @@
+{
+  "net/minecraft/client/gui/render/GuiRenderer": [
+    "net/fabricmc/fabric/impl/client/rendering/GuiRendererExtensions"
+  ],
+  "com/mojang/blaze3d/pipeline/RenderPipeline": [
+    "net/fabricmc/fabric/impl/client/rendering/FabricRenderPipelineImpl"
+  ],
+  "net/minecraft/client/model/Model": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricModel"
+  ],
+  "net/minecraft/client/renderer/block/BlockModelRenderState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/block/MovingBlockRenderState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/blockentity/state/BlockEntityRenderState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/entity/state/EntityRenderState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/entity/state/EntityRenderState$LeashState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/fog/FogData": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/item/ItemStackRenderState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/item/ItemStackRenderState$LayerRenderState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/state/GameRenderState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/state/LightmapRenderState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/state/MapRenderState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/state/MapRenderState$MapDecorationRenderState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/state/OptionsRenderState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/state/WindowRenderState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/state/gui/GuiRenderState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/state/gui/PanoramaRenderState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/state/level/BlockBreakingRenderState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/state/level/BlockOutlineRenderState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/state/level/CameraEntityRenderState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/state/level/CameraRenderState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/state/level/LevelRenderState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/state/level/ParticlesRenderState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/state/level/SkyRenderState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/state/level/WeatherRenderState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/client/renderer/state/level/WorldBorderRenderState": [
+    "net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState"
+  ],
+  "net/minecraft/server/network/ServerConfigurationPacketListenerImpl": [
+    "net/fabricmc/fabric/api/networking/v1/FabricServerConfigurationPacketListenerImpl"
+  ],
+  "net/minecraft/server/network/ServerCommonPacketListenerImpl": [
+    "net/fabricmc/fabric/api/networking/v1/context/PacketContextProvider"
+  ],
+  "net/minecraft/server/network/ServerLoginPacketListenerImpl": [
+    "net/fabricmc/fabric/api/networking/v1/context/PacketContextProvider"
+  ],
+  "net/minecraft/server/network/ServerHandshakePacketListenerImpl": [
+    "net/fabricmc/fabric/api/networking/v1/context/PacketContextProvider"
+  ],
+  "net/minecraft/server/level/ServerPlayer": [
+    "net/fabricmc/fabric/api/networking/v1/context/PacketContextProvider"
+  ],
+  "net/minecraft/client/multiplayer/ClientHandshakePacketListenerImpl": [
+    "net/fabricmc/fabric/api/networking/v1/context/PacketContextProvider"
+  ],
+  "net/minecraft/client/multiplayer/ClientCommonPacketListenerImpl": [
+    "net/fabricmc/fabric/api/networking/v1/context/PacketContextProvider"
+  ],
+  "net/minecraft/client/player/LocalPlayer": [
+    "net/fabricmc/fabric/api/networking/v1/context/PacketContextProvider"
+  ],
+  "net/minecraft/network/Connection": [
+    "net/fabricmc/fabric/api/networking/v1/context/PacketContextProvider"
+  ]
+}

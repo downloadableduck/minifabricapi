@@ -1,0 +1,13 @@
+{
+  "itemGroup.minifabricapi": "Example Mod Tab",
+  "block.minifabricapi.example_block": "Example Block",
+  "item.minifabricapi.example_item": "Example Item",
+
+  "minifabricapi.configuration.title": "MiniFabricAPI Configs",
+  "minifabricapi.configuration.section.minifabricapi.common.toml": "MiniFabricAPI Configs",
+  "minifabricapi.configuration.section.minifabricapi.common.toml.title": "MiniFabricAPI Configs",
+  "minifabricapi.configuration.items": "Item List",
+  "minifabricapi.configuration.logDirtBlock": "Log Dirt Block",
+  "minifabricapi.configuration.magicNumberIntroduction": "Magic Number Text",
+  "minifabricapi.configuration.magicNumber": "Magic Number"
+}
