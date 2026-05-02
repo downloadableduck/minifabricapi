@@ -109,5 +109,8 @@
   ],
   "net/minecraft/network/Connection": [
     "net/fabricmc/fabric/api/networking/v1/context/PacketContextProvider"
+  ],
+  "net/minecraft/world/entity/Entity": [
+    "net/fabricmc/fabric/api/event/lifecycle/v1/EntityLoadData"
   ]
 }
